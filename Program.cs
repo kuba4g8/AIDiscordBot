@@ -36,7 +36,7 @@ class Program
     public static async Task Main()
     {
         ollama = new AIHandler();
-        //await ollama.teachModel();
+        await ollama.teachModel();
 
 
         _client = new DiscordSocketClient(config: config);

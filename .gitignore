@@ -2,9 +2,7 @@
 bin/*
 obj/*
 
-# Cofnij ignorowanie folderów do exe
-!bin/Debug/
-!bin/Debug/net8.0/
+# Śledź tylko Twój EXE
 !bin/Debug/net8.0/nwmCoTo.exe
 
 # Visual Studio
@@ -23,9 +21,9 @@ packages/
 .DS_Store
 Thumbs.db
 
-# Logi
+# Logi i tymczasowe
 *.log
 
-# Placeholdery, prawdziwe dane ignorujemy
+# Lokalny token i prompt (nie wrzucamy do repo)
 token.txt
 teachingPrompt.txt
